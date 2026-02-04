@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Expense Tracker 💸</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <h1>My Expense Tracker</h1>
+            <p>Track your monthly spending</p>
+        </header>
+
+        <section class="summary">
+            <div class="card highlight">
+                <h3>Total Spent</h3>
+                <p class="amount">₹18,500</p>
+            </div>
+
+            <div class="card">
+                <h3>Highest Category</h3>
+                <p class="amount">Shopping</p>
+            </div>
+
+            <div class="card">
+                <h3>Current Month</h3>
+                <p class="amount">February 2026</p>
+            </div>
+        </section>
+
+        <section class="categories">
+            <h2>Expense Categories</h2>
+
+            <div class="category">
+                <span>Food</span>
+                <span class="money">₹4,500</span>
+            </div>
+
+            <div class="category">
+                <span>Transport</span>
+                <span class="money">₹2,000</span>
+            </div>
+
+            <div class="category">
+                <span>Shopping</span>
+                <span class="money">₹8,000</span>
+            </div>
+
+            <div class="category">
+                <span>Entertainment</span>
+                <span class="money">₹4,000</span>
+            </div>
+        </section>
+
+        <section class="transactions">
+            <h2>Recent Transactions</h2>
+
+            <div class="transaction-card">
+                <div>
+                    <h4>Grocery Shopping</h4>
+                    <p>01 Feb 2026</p>
+                </div>
+                <span class="debit">- ₹1,200</span>
+            </div>
+
+            <div class="transaction-card">
+                <div>
+                    <h4>Movie Tickets</h4>
+                    <p>28 Jan 2026</p>
+                </div>
+                <span class="debit">- ₹600</span>
+            </div>
+
+            <div class="transaction-card">
+                <div>
+                    <h4>Online Shopping</h4>
+                    <p>25 Jan 2026</p>
+                </div>
+                <span class="debit">- ₹2,500</span>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
